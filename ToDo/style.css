@@ -1,0 +1,81 @@
+body {
+  background: #fff;
+  color: #333;
+  font-family: sans-serif;
+}
+.container {
+  display: block;
+  width: 500px;
+  margin: 100px auto 0;
+}
+h1 {
+  /* font-size: 2.5rem; */
+  text-align: center;
+}
+.new-task-form {
+  display: flex;
+  justify-content: space-evenly;
+}
+.task-input {
+  padding: 0.8rem;
+  border: 1px solid #333;
+  border-radius: 4px;
+  outline: none;
+  font-size: 1rem;
+  flex: 1 1 0%;
+}
+.add-task {
+  background: none;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.add-task:hover {
+  color: green;
+}
+h3 {
+  font-size: 25px;
+  border-bottom: 2px solid black;
+  margin-bottom: 1.5rem;
+  padding: 0rem 0rem 0.6rem 0.3rem;
+}
+.todos-list{
+  width: 100%;
+}
+.todo { 
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(199, 195, 195);
+  padding: 15px;
+  margin-top: 10px;
+  
+}
+.todo-content{
+  display: flex;
+  gap: 15px;
+}
+.btn-group{
+  display: flex;
+}
+.edit-button {
+  border: none;
+  color: #333;
+  background: none;
+  cursor: pointer;
+}
+.edit-button:hover {
+  color: black;
+  font-weight: bold;
+}
+.delete-button {
+  border: none;
+  color: #333;
+  background: none;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  color: red;
+  font-weight: bold;
+}
+
