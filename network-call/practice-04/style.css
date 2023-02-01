@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .container img {
+    width: 300px;
+  }
+  .photo {
+    width: 350px;
+  }
+  
+  .container h2 {
+    font-size: 15px;
+  }
+  
